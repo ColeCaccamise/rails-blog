@@ -12,8 +12,4 @@ Rails.application.routes.draw do
 
   get '/posts/:id', to: 'posts#show', as: 'show_post'
 
-  if Rails.env.production?
-    get '404', :to => 'application#not_found'
-  end
-
 end
