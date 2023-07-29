@@ -66,3 +66,5 @@ gem 'psych', '~> 5.1'
 
 gem 'rdoc', '~> 6.5'
 
+gem 'dotenv-rails', require: 'dotenv/rails-now'
+
