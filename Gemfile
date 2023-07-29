@@ -68,3 +68,5 @@ gem 'rdoc', '~> 6.5'
 
 gem 'dotenv-rails', require: 'dotenv/rails-now'
 
+gem 'puma', '~> 6.3'
+
