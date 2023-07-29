@@ -63,3 +63,5 @@ gem "tailwindcss-rails", "~> 2.0"
 
 gem 'psych', '~> 5.1'
 
+gem 'rdoc', '~> 6.5'
+
