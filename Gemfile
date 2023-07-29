@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 gem 'railties', '~> 7.0', '>= 7.0.6'
 
 # Use sqlite3 as the daabase for Active Record
-gem 'sqlite3', '~> 1.6', '>= 1.6.3'
+# gem 'sqlite3', '~> 1.6', '>= 1.6.3'
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 6.0'
 # Use Uglifier as compressor for JavaScript assets
