@@ -1,0 +1,28 @@
+<h1>Add Post</h1>
+
+<%= form_for :post, url: posts_path do |f| %>
+  <p>
+    <%= f.label :author %>
+    <%= f.text_field :author %>
+  </p>
+
+  <p>
+    <%= f.label :img_url %>
+    <%= f.text_field :img_url %>
+  </p>
+
+  <p>
+      <%= f.label :title %>
+      <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <%= f.label :body %>
+    <%= f.text_area :body %>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+
+<% end %>
