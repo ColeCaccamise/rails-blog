@@ -83,4 +83,6 @@ Rails.application.configure do
 
   config.require_master_key = true
 
+  config.assets.css_compressor = nil
+
 end
